@@ -8,11 +8,11 @@
 #include "xmem.h"
 
 int serialWrite(char c, FILE *f) {
-  Serial.write(c);
+  putchar(c);
   return 0;
 }
 
-SdFat sd;
+//SdFat sd;
 
 void setup(void)
 {
